@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+			 xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+
+	<g:HTMLPanel>
+		
+		<p>Wyddech chi mai Saesneg (UDA) yw iaith cynnwys diofyn eich porwr? </p>
+		<p>Golyga hyn fod eich porwr yn eich tywys bob tro i dudalennau Saesneg gwefannau dwyieithog</p>
+		<p>Os hoffech chi Gymreigio eich porwr a'ch defnydd o'r we yn hwylus, yna dilynwch y camau yn y fideo isod</p>   		
+		<p style="text-align: center;">
+			<g:Frame ui:field="iframeFideo"></g:Frame>			
+		</p>		
+		<p style="text-align: center;">
+		<g:Button ui:field="botwmCau">Iawn</g:Button>
+		<g:Button ui:field="botwmGwrthod">Paid &acirc;'m mhoeni i eto</g:Button>
+		</p>
+				
+	</g:HTMLPanel>		
+	
+</ui:UiBinder> 
